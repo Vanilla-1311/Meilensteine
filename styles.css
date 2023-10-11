@@ -83,9 +83,14 @@ header {
 
 /* Comic-Elemente */
 .comic {
-  width: 60%;
-  height: 60%;
-  
+  width: 50%;
+  height: %;
+}
+.comicsmall {
+  width: 25%;
+  height: 25%;
+}
+
 #link {
   text-decoration: none; /* Entfernt die Standard-Unterstreichung des Links */
   background-color: #3498db; /* Hintergrundfarbe des Links */
