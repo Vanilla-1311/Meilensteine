@@ -79,3 +79,16 @@ header {
 .milestone p {
   color: #666;
 }
+
+#link {
+  text-decoration: none; /* Entfernt die Standard-Unterstreichung des Links */
+  background-color: #3498db; /* Hintergrundfarbe des Links */
+  color: #ffffff; /* Textfarbe des Links */
+  padding: 10px 20px; /* Innenabstand für den Link */
+  border-radius: 5px; /* Runde Ecken */
+  font-weight: bold; /* Fetter Text */
+  transition: background-color 0.3s;
+}
+#link :hover {
+  background-color: #2471a3;
+}
