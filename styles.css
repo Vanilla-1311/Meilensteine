@@ -20,15 +20,16 @@ header {
   scrollbar-color: #888 #f0f0f0;
 }
 .timeline {
-  width: 3000px; /* Breite des Zeitstrahls */
+  width: auto; /* Breite des Zeitstrahls */
   height: 100px; /* Höhe des Zeitstrahls */
   background-color: #f0f0f0;
   position: relative;
   white-space: nowrap;
 }
 .scrollable-timeline {
-  overflow: hidden;
+  overflow: auto;
   position: relative;
+  white-space: nowrap;
 }
 .years {
   display: flex;
@@ -99,4 +100,25 @@ header {
 }
 #link :hover {
   background-color: #2471a3;
+}
+.line {
+  height: 6px;
+  width: 5%;
+  background: #3498db;
+  top: 50%;
+}
+.zukunft {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+}
+.bild {
+  text-align: center;
 }
