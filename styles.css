@@ -61,7 +61,7 @@ header {
 
 /* Meilensteine */
 .content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 .milestone {
@@ -84,6 +84,10 @@ header {
 
 /* Comic-Elemente */
 .comic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
 .comicsmall {
