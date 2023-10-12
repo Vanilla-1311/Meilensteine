@@ -103,7 +103,7 @@ header {
 }
 .line {
   height: 6px;
-  width: 5%;
+  width: 100px;
   background: #3498db;
   top: 50%;
 }
