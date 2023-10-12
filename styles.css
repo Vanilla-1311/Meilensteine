@@ -54,10 +54,11 @@ header {
 }
 .line {
   height: 6px;
-  width: 5%;
+  width: 100px;
   background: #3498db;
   top: 50%;
 }
+
 /* Meilensteine */
 .content {
   width: 80%;
@@ -87,6 +88,9 @@ header {
   width: 25%;
   height: 25%;
 }
+.bild {
+  text-align: center;
+}
 
 /* Link-Elemente */
 #link {
@@ -101,12 +105,8 @@ header {
 #link :hover {
   background-color: #2471a3;
 }
-.line {
-  height: 6px;
-  width: 100px;
-  background: #3498db;
-  top: 50%;
-}
+
+/*
 .zukunft {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -119,6 +119,4 @@ header {
   max-width: 600px;
   text-align: center;
 }
-.bild {
-  text-align: center;
-}
+*/
