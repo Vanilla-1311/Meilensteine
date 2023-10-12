@@ -58,6 +58,9 @@ header {
   background: #3498db;
   top: 50%;
 }
+#onclicked {
+  border: thick solid #2774a7;
+}
 
 /* Meilensteine */
 .content {
