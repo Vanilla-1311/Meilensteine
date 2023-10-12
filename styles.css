@@ -108,3 +108,19 @@ header {
   background: #3498db;
   top: 50%;
 }
+.zukunft {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+}
+.bild{
+
+  text-align: center;
+}
