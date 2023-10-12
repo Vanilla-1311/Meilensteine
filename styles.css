@@ -73,13 +73,11 @@ header {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .milestone h2 {
-  color: #333;
   text-align: center;
 }
-.milestone p {
-  color: #666;
+.milestone h3 {
+  text-align: center;
 }
-
 /* Comic-Elemente */
 .comic {
   width: 50%;
