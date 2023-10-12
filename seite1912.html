@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
-    <title>Meilensteine von Software Engineering</title>
+    <title>Meilensteine des Software-Engineerings</title>
   </head>
   <body>
     <header>
-      <h1>Meilensteine der Software Engineering</h1>
+      <h1>Meilensteine des Software-Engineerings</h1>
     </header>
     <div class="timeline-container">
       <div class="timeline">
         <div class="scrollable-timeline">
           <div class="years">
-            <a class="year" href="seite1912.html">1912</a>
+            <a class="year" id="onclicked" href="seite1912.html">1912</a>
             <a class="line"></a>
             <a class="year" href="seite1960.html">1960</a>
             <a class="line"></a>
@@ -29,30 +29,32 @@
             <a class="line"></a>
             <a class="year" href="seite2020.html">2020</a>
             <a class="line"></a>
-            <a class="year" href="seite2080.html">2080</a>
+            <a class="year" href="seite2050.html">2050</a>
             <a class="line"></a>
-            <a class="year" href="seite2100.html">2100</a>
+            <a class="year" href="seite2080.html">2080</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="content">
-      <div class="milestone" id="milestone1">
+      <div class="milestone">
         <h2>Alan Turing</h2>
         <p>
-          Alan Turing (1912-1954) war ein britischer Logiker, Mathematiker,
+          <strong>Alan Turing (1912-1954)</strong> war ein britischer Logiker, Mathematiker,
           Kryptoanalytiker und Informatiker der mit seinen wegweisenden
           Forschungen auf dem Gebiet der theoretischen Informatik und der
           künstlichen Intelligenz als einer der Väter der modernen
           Computerwissenschaften gilt.
         </p>
+      </div>
+      <div class="comic">
         <img
-          class="comicsmall"
-          src="Comics/KadirsComics/Alan-Turing_1.png"
+          src="Ressources/KadirsComics/Alan-Turing_1.png"
           alt="Alan Turing Comic 1"
         />
-        <p></p>
+      </div>
+      <div class="milestone">
         <h3>Turingmaschinen</h3>
         <ul>
           <li>
@@ -70,7 +72,8 @@
           </li>
           <li>Grundlage für von-Neumann-Architektur (Von-Neumann-Rechner)</li>
         </ul>
-
+        </div>
+        <div class="milestone" id="milestone2">
         <h3>Turing-Bombe</h3>
         <ul>
           <li>
@@ -95,11 +98,14 @@
             ersten digitalen, programmierbaren Computers ENIAC
           </li>
         </ul>
+        </div>
+        <div class="comic">
         <img
-          class="comic"
-          src="Comics/KadirsComics/Alan-Turing_4.jpg"
+          src="Ressources/KadirsComics/Alan-Turing_4.png"
           alt="Alan Turing Comic 2"
         />
+        </div>
+      <div class="milestone" id="milestone4">
         <h3>Turing Test</h3>
         <ul>
           <li>
@@ -107,7 +113,25 @@
             Kommunikationspartner kann nicht mehr zwischen Mensch und Maschine
             unterscheiden
           </li>
+          <li>Beinflusste die Forschung im Bereich der KI erheblich</li>
         </ul>
+      </div>
+      <div class="milestone" id="milestone5">
+        <p>
+            1952 schrieb Turing eines der ersten Schachprogramme weltweit "Turochamp". 
+            Diesen Algorithmus wertete er für jeden Schazug per Hand aus, was um die 30
+            Minuten benötigte.
+        </p>
+      </div>
+      <div class="milestone" id="milestone6">
+        <p>
+          <strong>
+            Seine Ideen und Arbeiten hatten erheblichen Einfluss auf die
+            Entwicklung von Computerwissenschaften und die heutige
+            Softwareentwicklung. </br> → Grundstein für Entwicklung von
+            Programmiersprachen und Compiler- Techniken
+          </strong>
+        </p>
       </div>
     </div>
   </body>
