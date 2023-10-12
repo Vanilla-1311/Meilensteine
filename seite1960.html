@@ -37,22 +37,84 @@
       </div>
     </div>
 
+    <div class="comic">
+        <img
+          src="Ressources/MarcoComics/Structured_Programming_Comic.png"
+          alt="Alan Turing Comic 1"
+        />
+    </div>
     <div class="content">
       <div class="milestone" id="milestone1">
-        <h2>Überschrift</h2>
-        <p>Text</p>
+        <h2>Hinführung</h2>
+        <p> <b>Zeit  der Software-Kriese:</b> Eine Ära, in der Software exiplizit für Hardware gestaltet wurde und mangelnde Sachverständnis und unstrukturierte Programmierung dafür sorgten, dass regelmäßige, kostpielige Systemausfälle Grund für teure Entwicklungsprozesse und verspätete Software waren. <br/>
+          <br/>
+          Niklaus Wirth [<a href="https://people.inf.ethz.ch/wirth/Miscellaneous/IEEE-Annals.pdf">A Brief History of Software-Enigneering, 2008</a>] beschreibt dies folgendermaßen: <br/>
+          “The new, hot topics were multiprocessing and concurrent programming. The difficulties brought big companies to the brink of collapse“ <br/>
+          <br/>
+          In [<a href="https://www.cs.utexas.edu/users/EWD/ewd13xx/EWD1308.PDF">What led to Notes on structural Programming (2002)</a>] von Edsger W. Dijkstra stellt er seine Beweggründe für NOTES ON STRUCTURED PROGRAMMING (1972) heraus: <br/>
+           <br/>
+           "It was heavily contributet to my subsequent opinion that creating confidence in the correctness of his design was the most important but hardest aspect of the programmer's task. In a world obsessed with speed, this was not a universally popular notion." <br/>
+            <br/>
+            Edsger Wybe Dijkstra beschreibt hier auch zwei externe Stimuli für das Erstellen von „Note to structured Programming“: Die NATO Konferenz zu „Software Engineering“ 1968 in Garmisch- Patenkirchen und die IFIP Working Group 2.3 on „Programming Methodology“.
+
+        </p>
       </div>
       <div class="milestone" id="milestone2">
-        <h2>Überschrift</h2>
-        <p>Text</p>
+        <h2>Structured Programming</h2>
+        <p>
+          War mit der erste Entwurf eines einheiltlichen Programmier-Paradigmas
+          der im Zuge von Dijkstras
+          <a href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD249.PDF"
+            >"NOTES ON STRUCTURED PROGRAMMING (1970)"</a
+          >
+          ende der 60er Jahre (anfang der 70er) entstand und zusammen mit der, durch seine Paper ausglöste, GOTO-Kontroverse in der
+          Software-Engineering-Community für Furore sorgte. <br/>
+          <br/>
+          <h4>Worum geht es bei Structured Programming?</h4>
+          <p>
+            Structured Programming ist ein Programmierparadigma, das sich strukturierte Kontrollflusskonstrukte
+            zu nutze macht um die Klarheit, Zuverlässigkeit und Wartbarkeit von Programmen zu verbessern. <br/>
+            <br/>
+            Diese Vorteile werden erlangt, indem die Kontrolle des Programmflusses eingeschränkt wird. Dies geschieht, indem lediglich drei Strukturen (oder Strukturen die sich aus diesen ableiten) zur Kontrollflusskontrolle verwendet werden dürfen:
+            <ul>
+              <li>Sequenz</li>
+              <li>Selektion (if/then/else)</li>
+              <li>Iteration (Do-While)</li>
+            </ul>
+          </p>
+          <p>
+            Mit diesen Einschränkungen werden GOTO-Anweisungen/Verzweigungen überflüssig. In Programmiersprachen, die die obige Strukturen nicht ausreichend unterstützen, können GOTO-Anweisungen genutzt werden, um Structured-Programming zu simulieren. <br/>
+            Beachtet man die obigen Einschränkungen, lassen sich Programme in Module aufteilen, die stark unabhängig von einander operieren können (Modularisierung). Dijkstras Ansatz sieht damit vor, ein hierachisches Modell eines Uniprogramms aufzubauen und auf Multiprogramming zu verzichten [aus What led to Notes on structural Programming (2002)] <br/>
+            <br/>
+            Damit lassen sich Logik-Fehler schneller erkennen und sind einfacher debugbar, sowie erweiterbar.
+            <br/>
+            Aus den Ansätzen des Structured-Programmings lassen sich auch Nachteile ableiten: <br/> 
+            Mit Strucktured-Programming können sich durch die Einschränkungen weniger effiziente Programme ergeben. Auch kann Structured Programming bei Programmiersprachen, die die obigen Strukturen nicht vollständig unterstützt kompliziert sein. <br/>
+            [<a href="https://link.springer.com/article/10.3758/BF03205654">An introduction to structured programming, KARL P. HUNT (1979)</a>] <br/>
+            <br/>
+            Structured-Programming definiert sich aber nicht ausschließlich über diese Einschränkungen (Best-Practise), vielmehr ist es Edsger W. Dijkstras Philosphie zur Programmierung auf einer höheren (mathematischen/abstrakten) Ebene. So lassen sich nach [<a href="https://dl.acm.org/doi/book/10.5555/1243380">C. A. R. Hoare et al.</a>] die Prinzipien, des Structured-Programmings für top-down bzw. bottom-up Programm-Design nutzen. <br/> 
+          </p>
+        </p>
       </div>
       <div class="milestone" id="milestone3">
-        <h2>Überschrift</h2>
-        <p>Text</p>
-      </div>
-      <div class="milestone" id="milestone4">
-        <h2>Überschrift</h2>
-        <p>Text</p>
+        <h2>Auswirkung</h2>
+        <p>
+          Direkte Reaktionen auf Dijkstras Papers waren nach [<a href="https://scholarworks.calstate.edu/downloads/k35696971">THE EVOLUTION OF SOFTWARE DESIGN IDEAS (1985), David J. Koepke</a>] zurerst abwetend, da sein Warnhinweis bezüglich der GOTO-Anweisung innerhalb der Assembly und Fortran Programmierer nicht ernst genommen wurde. Es entbrannte darauf hin eine mehrjährige Debatte (GOTO-Kontroverse) ob das Nutzen der GOTO-Anweisung nötig sei oder nicht und in wie weit die performance dadurch eingeschrenkt wurde.<br/>
+          <br/>
+          Die Auswirkungen von Dijkstras Papers auf die Welt des Software-Engineerings, im Bezug auf die Software-Krise, beschreibt Niklaus Wirth in [<a href="https://people.inf.ethz.ch/wirth/Miscellaneous/IEEE-Annals.pdf">A Brief History of Software-Enigneering, 2008</a>] folgendermaßen: <br/>
+          <br/>
+          “Of course, all this did not change the situation, nor dispel all difficulties over night.
+          Industry could change neither policies nor tools rapidly. Nevertheless, intensive training
+          courses on structured programming were organized, notably by H. D. Mills in IBM. None
+          less than the US Department of Defense realized that problems were urgent and growing.
+          It started a project that ultimately led to the programming language Ada, a highly
+          structured language suitable for a wide variety of applications. Software development
+          within the DoD would then be based exclusively on Ada” <br/>
+          <br/>
+          Auch stellt er heraus: "structured programming had been the guiding spirit behind Pascal" und zeigt damit welchen Einfluss Dijkstras Papers auf die prozeduraler Programmierung hatte. <br/>
+          <br/>
+          Desweiteren stellt er heraus, dass Dijkstras "famous Notes on Structured Programming" die Programmierung zu einer Disziplin (anstatt eines Handwerks) machte <br/>
+        </p>
       </div>
     </div>
   </body>
