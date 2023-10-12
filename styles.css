@@ -95,6 +95,10 @@ header {
   width: 50%;
   height: 50%;
 }
+#comicsmall {
+  width: 30%;
+  height: 30%;
+}
 .bild {
   text-align: center;
 }
