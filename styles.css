@@ -102,7 +102,11 @@ header {
 .bild {
   text-align: center;
 }
-
+#nebeneinander {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Link-Elemente */
 #link {
   text-decoration: none; /* Entfernt die Standard-Unterstreichung des Links */
