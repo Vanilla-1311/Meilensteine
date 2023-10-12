@@ -19,7 +19,6 @@ header {
   scrollbar-width: thin;
   scrollbar-color: #888 #f0f0f0;
 }
-
 .timeline {
   width: 3000px; /* Breite des Zeitstrahls */
   height: 100px; /* Höhe des Zeitstrahls */
@@ -27,18 +26,15 @@ header {
   position: relative;
   white-space: nowrap;
 }
-
 .scrollable-timeline {
   overflow: hidden;
   position: relative;
 }
-
 .years {
   display: flex;
   align-items: center;
   padding: 10px;
 }
-
 .year {
   width: 50px; /* Breite der Jahr-Elemente */
   height: 50px; /* Höhe der Jahr-Elemente */
@@ -52,9 +48,14 @@ header {
   transition: background-color 0.3s ease;
   text-decoration: none;
 }
-
 .year:hover {
   background-color: #2980b9;
+}
+.line {
+  height: 6px;
+  width: 5%;
+  background: #3498db;
+  top: 50%;
 }
 
 /* Meilensteine */
@@ -62,7 +63,6 @@ header {
   width: 80%;
   margin: 0 auto;
 }
-
 .milestone {
   background-color: white;
   padding: 20px;
@@ -71,12 +71,10 @@ header {
   margin-bottom: 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .milestone h2 {
   color: #333;
   text-align: center;
 }
-
 .milestone p {
   color: #666;
 }
@@ -90,6 +88,7 @@ header {
   height: 25%;
 }
 
+/* Link-Elemente */
 #link {
   text-decoration: none; /* Entfernt die Standard-Unterstreichung des Links */
   background-color: #3498db; /* Hintergrundfarbe des Links */
@@ -101,10 +100,4 @@ header {
 }
 #link :hover {
   background-color: #2471a3;
-}
-.line {
-  height: 6px;
-  width: 5%;
-  background: #3498db;
-  top: 50%;
 }
