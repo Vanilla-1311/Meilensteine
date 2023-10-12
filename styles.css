@@ -36,7 +36,6 @@ header {
 .years {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px;
 }
 
@@ -51,6 +50,7 @@ header {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .year:hover {
@@ -84,7 +84,6 @@ header {
 /* Comic-Elemente */
 .comic {
   width: 50%;
-  height: %;
 }
 .comicsmall {
   width: 25%;
@@ -102,4 +101,10 @@ header {
 }
 #link :hover {
   background-color: #2471a3;
+}
+.line {
+  height: 6px;
+  width: 5%;
+  background: #3498db;
+  top: 50%;
 }
