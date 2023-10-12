@@ -88,14 +88,12 @@ header {
 /* Comic-Elemente */
 .comic {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
-.comicsmall {
-  width: 25%;
-  height: 25%;
+.comic img {
+  width: 80%;
+  height: 70%;
 }
 .bild {
   text-align: center;
