@@ -17,9 +17,9 @@
           <div class="years">
             <a class="year" href="seite1912.html">1912</a>
             <a class="line"></a>
-            <a class="year" id="onclicked" href="seite1960.html">1960</a>
-            <a class="line"></a>
             <a class="year" href="seite1962.html">1962</a>
+            <a class="line"></a>
+            <a class="year" id="onclicked" href="seite1970.html">1970</a>
             <a class="line"></a>
             <a class="year" href="seite1980.html">1980</a>
             <a class="line"></a>
@@ -37,12 +37,6 @@
       </div>
     </div>
 
-    <div class="comic">
-        <img
-          src="Ressources/MarcoComics/Structured_Programming_Comic.png"
-          alt="Alan Turing Comic 1"
-        />
-    </div>
     <div class="content">
       <div class="milestone" id="milestone1">
         <h2>Hinführung</h2>
@@ -60,20 +54,26 @@
         </p>
       </div>
       <div class="milestone" id="milestone2">
+        <div class="comic" align="centre">
+          <img
+                  src="Ressources/MarcoComics/Structured_Programming_Comic.png"
+                  alt="Alan Turing Comic 1"
+          />
+        </div>
         <h2>Structured Programming</h2>
         <p>
-          War mit der erste Entwurf eines einheiltlichen Programmier-Paradigmas
+          War mit, der erste Entwurf eines einheitlichen Programmier-Paradigmas
           der im Zuge von Dijkstras
           <a href="https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD249.PDF"
             >"NOTES ON STRUCTURED PROGRAMMING (1970)"</a
           >
           ende der 60er Jahre (anfang der 70er) entstand und zusammen mit der, durch seine Paper ausglöste, GOTO-Kontroverse in der
-          Software-Engineering-Community für Furore sorgte. <br/>
+          Software-Engineering-Community, für Furore sorgte. <br/>
           <br/>
           <h4>Worum geht es bei Structured Programming?</h4>
           <p>
             Structured Programming ist ein Programmierparadigma, das sich strukturierte Kontrollflusskonstrukte
-            zu nutze macht um die Klarheit, Zuverlässigkeit und Wartbarkeit von Programmen zu verbessern. <br/>
+            zu Nutze macht um die Klarheit, Zuverlässigkeit und Wartbarkeit von Programmen zu verbessern. <br/>
             <br/>
             Diese Vorteile werden erlangt, indem die Kontrolle des Programmflusses eingeschränkt wird. Dies geschieht, indem lediglich drei Strukturen (oder Strukturen die sich aus diesen ableiten) zur Kontrollflusskontrolle verwendet werden dürfen:
             <ul>
@@ -83,7 +83,7 @@
             </ul>
           </p>
           <p>
-            Mit diesen Einschränkungen werden GOTO-Anweisungen/Verzweigungen überflüssig. In Programmiersprachen, die die obige Strukturen nicht ausreichend unterstützen, können GOTO-Anweisungen genutzt werden, um Structured-Programming zu simulieren. <br/>
+            Mit diesen Einschränkungen werden GOTO-Anweisungen/Verzweigungen überflüssig. In Programmiersprachen, die die obigen Strukturen nicht ausreichend unterstützen, können GOTO-Anweisungen genutzt werden, um Structured-Programming zu simulieren. <br/>
             Beachtet man die obigen Einschränkungen, lassen sich Programme in Module aufteilen, die stark unabhängig von einander operieren können (Modularisierung). Dijkstras Ansatz sieht damit vor, ein hierachisches Modell eines Uniprogramms aufzubauen und auf Multiprogramming zu verzichten [aus What led to Notes on structural Programming (2002)] <br/>
             <br/>
             Damit lassen sich Logik-Fehler schneller erkennen und sind einfacher debugbar, sowie erweiterbar.
@@ -99,7 +99,7 @@
       <div class="milestone" id="milestone3">
         <h2>Auswirkung</h2>
         <p>
-          Direkte Reaktionen auf Dijkstras Papers waren nach [<a href="https://scholarworks.calstate.edu/downloads/k35696971">THE EVOLUTION OF SOFTWARE DESIGN IDEAS (1985), David J. Koepke</a>] zurerst abwetend, da sein Warnhinweis bezüglich der GOTO-Anweisung innerhalb der Assembly und Fortran Programmierer nicht ernst genommen wurde. Es entbrannte darauf hin eine mehrjährige Debatte (GOTO-Kontroverse) ob das Nutzen der GOTO-Anweisung nötig sei oder nicht und in wie weit die performance dadurch eingeschrenkt wurde.<br/>
+          Direkte Reaktionen auf Dijkstras Papers waren nach [<a href="https://scholarworks.calstate.edu/downloads/k35696971">THE EVOLUTION OF SOFTWARE DESIGN IDEAS (1985), David J. Koepke</a>] zurerst abwetend, da sein Warnhinweis bezüglich der GOTO-Anweisung innerhalb der Assembly und Fortran Programmierer nicht ernst genommen wurde. Es entbrannte daraufhin eine mehrjährige Debatte (GOTO-Kontroverse) ob das Nutzen der GOTO-Anweisung nötig sei oder nicht und inwieweit die Performance dadurch eingeschränkt wurde.<br/>
           <br/>
           Die Auswirkungen von Dijkstras Papers auf die Welt des Software-Engineerings, im Bezug auf die Software-Krise, beschreibt Niklaus Wirth in [<a href="https://people.inf.ethz.ch/wirth/Miscellaneous/IEEE-Annals.pdf">A Brief History of Software-Enigneering, 2008</a>] folgendermaßen: <br/>
           <br/>
